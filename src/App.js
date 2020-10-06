@@ -4,7 +4,7 @@ import { Cards, Chart, CountryPicker } from "./components";
 import { fetchData } from "./api/";
 import styles from "./App.module.css";
 import coronaImage from "./images/covid.png";
-
+ 
 class App extends Component {
   state = {
     data: {},
